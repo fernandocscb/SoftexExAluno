@@ -1,0 +1,25 @@
+Exercício realizado no Portugol
+
+programa
+{
+	
+	funcao inicio()
+	{
+			
+		real media
+		inteiro faltas
+		caracter nome
+
+		escreva("Informe o nome do aluno: \n")
+		leia(nome)
+		escreva("Informe a média do aluno: \n")
+		leia(media)
+		escreva("Informe a quantidade de faltas do aluno: \n")
+		leia(faltas)
+
+		se (media < 7 ou faltas > 3){
+			escreva(nome, " reprovado")}
+		senao (media >= 7 e faltas <= 3){
+			escreva(nome, "está aprovado")}
+	}
+}
